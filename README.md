@@ -2,7 +2,7 @@
 
 A set of components for managing advanced transitions on components.
 
-##Packages
+## Packages
 
 This package is a monorepo managed through [Lerna](https://github.com/lerna/lerna).
 
