@@ -1,0 +1,63 @@
+{
+  "name": "evanesco",
+  "version": "0.0.1",
+  "description": ":dash: A set of components for managing advanced transitions on components.",
+  "repository": "github:alextoudic/evanesco",
+  "license": "MIT",
+  "author": {
+    "name": "Alex Toudic",
+    "email": "alexandre.toudic@gmail.com",
+    "url": "https://alextoudic.github.com/"
+  },
+  "main": "lib/index.js",
+  "module": "lib/es/index.js",
+  "scripts": {
+    "test": "npm run format && npm run lint && jest",
+    "lint": "standard **/*.js",
+    "format": "prettier-standard '**/*.js'",
+    "build": "node scripts/build.js"
+  },
+  "peerDependencies": {
+    "react": ">=15"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babelrc-rollup": "^3.0.0",
+    "gzip-size": "^4.1.0",
+    "jest": "^22.4.3",
+    "prettier-standard": "^8.0.1",
+    "pretty-bytes": "^4.0.2",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-testing-library": "^2.2.0",
+    "rollup": "^0.58.2",
+    "rollup-plugin-babel": "^3.0.4",
+    "rollup-plugin-commonjs": "^9.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^3.0.0",
+    "standard": "^11.0.1"
+  },
+  "keywords": [
+    "transitions",
+    "transition",
+    "animations",
+    "animation",
+    "react",
+    "react-transition",
+    "react-transition-group",
+    "react-native"
+  ],
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [
+      "__utils__"
+    ]
+  }
+}

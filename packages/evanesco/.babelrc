@@ -1,0 +1,21 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "react"
+  ],
+  "plugins": [
+    "transform-object-rest-spread",
+    "transform-class-properties",
+    [
+      "root-import",
+      {
+        "rootPathSuffix": "src"
+      }
+    ]
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"]
+    }
+  }
+}

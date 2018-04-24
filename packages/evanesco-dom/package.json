@@ -1,0 +1,32 @@
+{
+  "name": "evanesco-dom",
+  "version": "0.0.1",
+  "description":
+    ":dash: A set of components for managing advanced transitions on components in the dom.",
+  "keywords": [
+    "transitions",
+    "transition",
+    "animations",
+    "animation",
+    "react",
+    "react-transition",
+    "react-transition-group",
+    "react-native"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/es/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "eslint",
+    "test": "jest"
+  },
+  "repository": "github:alextoudic/evanesco",
+  "author": {
+    "name": "Alex Toudic",
+    "email": "alexandre.toudic@gmail.com",
+    "url": "https://alextoudic.github.com/"
+  },
+  "license": "MIT"
+}
