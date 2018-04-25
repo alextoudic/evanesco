@@ -4,11 +4,11 @@ First of all, thanks a lot for considering contributing to evanesco, you're awes
 
 The following is a set of guidelines and things to know about evanesco and dependents hosted in the [evanesco monorepo](https://github.com/alextoudic/evanesco) on GitHub.
 
-##Code of Conduct :memo:
+## Code of Conduct :memo:
 
 By contributing to evanesco you agree to respect the [Code of Conduct](./CODE_OF_CONDUCT.md). Please report unacceptable behavior to evanesco@googlegroups.com.
 
-##I Found a Bug! :bug:
+## I Found a Bug! :bug:
 
 Before reporting a bug, be sure you've read [ReactJS'](https://reactjs.org/) and [evanesco's](#) documentations. If you're sure, you're bug is related to evanesco, open an issue following the [issue template](./ISSUE_TEMPLATE.md).
 
